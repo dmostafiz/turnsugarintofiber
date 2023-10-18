@@ -52,7 +52,7 @@ export default function useRegister() {
             email: email,
             phone_number: number,
             sponsorId: sponsor,
-            contactHost: 'my_freedom'
+            contactHost: 'modifiber'
         })
 
         if (res?.data?.ok) {
