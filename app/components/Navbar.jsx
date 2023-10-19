@@ -64,7 +64,7 @@ const Navbar = () => {
             ))}
           </HStack>
         </HStack>
-        <Stack
+        {/* <Stack
           display={{
             base: isOpen ? "flex" : "none",
             md: "none",
@@ -76,7 +76,7 @@ const Navbar = () => {
               {link.TITLE}
             </Link>
           ))}
-        </Stack>
+        </Stack> */}
       </Container>
     </Stack>
   );
