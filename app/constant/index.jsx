@@ -1,28 +1,28 @@
 export const HOME = {
   NAVIGATION: {
     LOGO: "/assets/logo.png",
-    LINKS: [
-      {
-        TITLE: "Home",
-        LINK: "#home",
-      },
-      {
-        TITLE: "About",
-        LINK: "#about",
-      },
-      {
-        TITLE: "Products",
-        LINK: "#products",
-      },
-      {
-        TITLE: "Services",
-        LINK: "#services",
-      },
-      {
-        TITLE: "Contact",
-        LINK: "#contact",
-      },
-    ],
+    // LINKS: [
+    //   {
+    //     TITLE: "Home",
+    //     LINK: "#home",
+    //   },
+    //   {
+    //     TITLE: "About",
+    //     LINK: "#about",
+    //   },
+    //   {
+    //     TITLE: "Products",
+    //     LINK: "#products",
+    //   },
+    //   {
+    //     TITLE: "Services",
+    //     LINK: "#services",
+    //   },
+    //   {
+    //     TITLE: "Contact",
+    //     LINK: "#contact",
+    //   },
+    // ],
   },
 
   HERO: {
