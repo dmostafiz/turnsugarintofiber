@@ -56,13 +56,13 @@ const Navbar = () => {
           >
             <Icon as={!isOpen ? FaBars : AiOutlineClose} boxSize="5" />
           </IconButton>
-          <HStack spacing={6} display={{ base: "none", md: "flex" }}>
+          {/* <HStack spacing={6} display={{ base: "none", md: "flex" }}>
             {HOME.NAVIGATION.LINKS.map((link, index) => (
               <Link color="gray" fontWeight="semibold" href={link.LINK}>
                 {link.TITLE}
               </Link>
             ))}
-          </HStack>
+          </HStack> */}
         </HStack>
         {/* <Stack
           display={{
