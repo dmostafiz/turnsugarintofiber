@@ -32,9 +32,9 @@ export default function CodeSection({ onOpen }) {
           }}
         >
           <Box flex={1}>
-            <iframe className="" id="video" width={'100%'} height={360} src='https://www.youtube.com/embed/_kLcBpmwjYg' allowTransparency="true" autoPlay={true} allowFullScreen muted="true" />
+            <iframe className="" id="video" width={'100%'} height={520} src='https://www.youtube.com/embed/_kLcBpmwjYg' allowTransparency="true" autoPlay={true} allowFullScreen muted="true" />
           </Box>
-          
+
           <Stack flex="1" spacing={5}>
             <Text
               textStyle="h3"
