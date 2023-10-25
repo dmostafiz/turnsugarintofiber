@@ -86,7 +86,7 @@ export default function Hero() {
             w="full"
             px="4"
           >
-            <Button w="full">SHOP NOW</Button>
+            {/* <Button w="full">SHOP NOW</Button> */}
           </Box>
         </VStack>
         <VStack>
@@ -98,7 +98,7 @@ export default function Hero() {
             top="-9"
             pos="relative"
           >
-            <Button>SHOP NOW</Button>
+            {/* <Button>SHOP NOW</Button> */}
           </Box>
           <Image mb="-8" src={HOME.HERO.PRODUCT} alt="Product" />
         </VStack>

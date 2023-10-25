@@ -60,7 +60,7 @@ export default function Challange() {
             {HOME.CHALLANGE.SUB_TITLE2}
           </Text>
           <Box mt="4">
-            <Button
+            {/* <Button
               w="full"
               maxW={{
                 base: "full",
@@ -68,7 +68,7 @@ export default function Challange() {
               }}
             >
               Shop Now
-            </Button>
+            </Button> */}
           </Box>
         </Stack>
       </HStack>

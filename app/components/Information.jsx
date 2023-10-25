@@ -109,14 +109,14 @@ export default function Information() {
             </Text>
           </Box>
           <Flex mt="4" w="full">
-            <Button
+            {/* <Button
               w={{
                 base: "full",
                 md: "auto",
               }}
             >
               SHOP NOW
-            </Button>
+            </Button> */}
           </Flex>
         </Stack>
       </HStack>

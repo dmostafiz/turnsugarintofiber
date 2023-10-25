@@ -3,6 +3,7 @@ import { HOME } from "../constant";
 const HandSection = () => {
   return (
     <Box
+    mt={20}
       bgImage="url(/assets/hand_bg.png)"
       h={{
         base: "auto",

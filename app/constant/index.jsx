@@ -31,7 +31,7 @@ export const HOME = {
     HEADING: "Less sugar means fewer calories and a healthier you.",
     TITLE: (
       <>
-        TURN <span>SUGAR</span> INTO FIBER
+        TURN <span>SUGAR</span> TO FIBER
       </>
     ),
     SUB_TITLE:
@@ -39,7 +39,7 @@ export const HOME = {
     ITEMS: [
       {
         ICON: "/assets/hero-icon1.png",
-        TITLE: "Pre & Probiotic Blend",
+        TITLE: "Reduce Calories",
       },
       {
         ICON: "/assets/hero-icon2.png",

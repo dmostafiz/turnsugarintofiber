@@ -99,14 +99,38 @@ export default function HomePage() {
     <>
       <HomeSection.Navbar />
       <HomeSection.Hero />
-      <HomeSection.Benefits />
+      <HomeSection.QuoteSection />
+      <HomeSection.ButtonImgSection onOpen={sponsorModal.onOpen} />
+      <HomeSection.HandSection />
       <HomeSection.Challange />
       <HomeSection.AgingSection />
       <HomeSection.Information />
-      <HomeSection.QuoteSection />
-      <HomeSection.Suger />
-      <HomeSection.HandSection />
-      <HomeSection.ButtonImgSection onOpen={sponsorModal.onOpen} />
+      <HomeSection.Benefits />
+      {/* <HomeSection.Suger /> */}
+
+      <Box
+        mt={16}
+        bgImage={`url(/assets/bottom_image.png)`}
+        w="full"
+        h={{
+          base: "240px",
+          md: "220px",
+        }}
+        mb="20"
+        bgPos={{
+          base: "-280px",
+          md: "center",
+        }}
+        mx="auto"
+        maxW={{
+          base: "full",
+          md: "1135px",
+        }}
+        bgSize={{
+          base: "cover",
+          md: "contain",
+        }}
+      ></Box>
       <HomeSection.Footer />
 
       <Modal isOpen={sponsorModal.isOpen} onClose={sponsorModal.onClose}>

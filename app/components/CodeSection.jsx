@@ -134,28 +134,7 @@ export default function CodeSection({onOpen}) {
           </Stack>
         </HStack>
       </Container>
-      <Box
-        bgImage={`url(/assets/bottom_image.png)`}
-        w="full"
-        h={{
-          base: "240px",
-          md: "220px",
-        }}
-        mb="20"
-        bgPos={{
-          base: "-280px",
-          md: "center",
-        }}
-        mx="auto"
-        maxW={{
-          base: "full",
-          md: "1135px",
-        }}
-        bgSize={{
-          base: "cover",
-          md: "contain",
-        }}
-      ></Box>
+   
     </Box>
   );
 }
