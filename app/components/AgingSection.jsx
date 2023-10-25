@@ -33,7 +33,9 @@ const AgingSection = () => {
             md: "-300px",
           }}
         >
-          <Image src={HOME.FIGHT.VIDEO} alt="Aging Product" />
+          <>
+            <iframe className="" id="video" width={'100%'} height={620} src='https://www.youtube.com/embed/TU-C_oVO0FI?si=6kn33jA9BGlGvoy4' allowTransparency="true" autoPlay={true} allowFullScreen muted="true" />
+          </>
         </Box>
 
         <Text

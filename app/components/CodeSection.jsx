@@ -16,7 +16,7 @@ import { HOME } from "../constant";
 import useRegister from "../Hooks/useRegister";
 import { Field, Form, Formik } from "formik";
 
-export default function CodeSection({onOpen}) {
+export default function CodeSection({ onOpen }) {
 
   const { handleSubmit } = useRegister()
 
@@ -31,9 +31,10 @@ export default function CodeSection({onOpen}) {
             md: "row",
           }}
         >
-          <Box flex="1">
-            <Image src={HOME.FORM.VIDEO} />
+          <Box flex={1}>
+            <iframe className="" id="video" width={'100%'} height={360} src='https://www.youtube.com/embed/_kLcBpmwjYg' allowTransparency="true" autoPlay={true} allowFullScreen muted="true" />
           </Box>
+          
           <Stack flex="1" spacing={5}>
             <Text
               textStyle="h3"
@@ -134,7 +135,7 @@ export default function CodeSection({onOpen}) {
           </Stack>
         </HStack>
       </Container>
-   
+
     </Box>
   );
 }
