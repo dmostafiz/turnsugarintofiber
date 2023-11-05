@@ -58,7 +58,12 @@ export default function useRegister() {
         if (res?.data?.ok) {
             Cookies.remove('sponsor')
 
-            window.location.href = `https://shopxcelerate.com/`
+            if (res?.data?.credentials) {
+                const credentials = res?.data?.credentials
+                return window.location.href = `https://shopxcelerate.com/auth/user_login?username=${credentials?.username}&password=${credentials?.password}`
+            } else {
+                window.location.href = `https://shopxcelerate.com/`
+            }
 
         } else {
             toast({
